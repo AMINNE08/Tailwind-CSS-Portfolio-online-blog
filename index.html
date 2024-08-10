@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class= "bg-gray-50">
+    <!-- Header Section -->
+    <header
+      class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-6"
+    >
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center pl-10">
+          <img
+            src="./assets/logo.png"
+            alt="Author"
+            class="w-12 h-12 rounded-full mr-4"
+          />
+          <h1 class="text-3xl font-bold">BLOGR</h1>
+        </div>
+
+        <!-- Hamburger Icon for Mobile -->
+        <div class="hamburger md:hidden">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <nav>
+          <ul class="flex space-x-6 pr-10">
+            <li><a href="#" class="hover:text-gray-300">Features</a></li>
+            <li><a href="#" class="hover:text-gray-300">Pricing</a></li>
+            <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-500 text-white"
+    >
+      <h2 class="text-7xl font-bold mb-4">Blogs</h2>
+      <p class="text-xl">All news about Blogr in one place</p>
+    </section>
+
+    <!-- Category Section -->
+    <section class="container mx-auto my-16">
+      <h2 class="text-3xl font-bold mb-6 text-center text-blue-600">
+        Categories
+      </h2>
+      <div class="flex justify-center space-x-4">
+        <span
+          class="bg-blue-100 text-blue-800 text-sm font-semibold px-4 py-2 rounded-full"
+          >Technology</span
+        >
+        <span
+          class="bg-green-100 text-green-800 text-sm font-semibold px-4 py-2 rounded-full"
+          >Lifestyle</span
+        >
+        <span
+          class="bg-red-100 text-red-800 text-sm font-semibold px-4 py-2 rounded-full"
+          >Business</span
+        >
+        <span
+          class="bg-purple-100 text-purple-800 text-sm font-semibold px-4 py-2 rounded-full"
+          >Travel</span
+        >
+      </div>
+    </section>
+
+    <!-- Popular Blogs Section -->
+    <section class="container mx-auto my-16">
+      <h1
+        class="text-3xl font-bold mb-20 text-blue-600 flex justify-center text-opacity-60"
+      >
+        Featured Blogs
+      </h1>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Blog 1 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="./assets/pexels-adriendrj-18289777.jpg"
+            alt="Blog 1"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">
+              Don't miss a single match this season.
+            </h3>
+            <p class="text-gray-500">By Michael • 3 hrs ago</p>
+          </div>
+        </div>
+        <!-- Blog 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="./assets/pexels-karolina-grabowska-4210787.jpg"
+            alt="Blog 2"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">
+              Game or international tournament, Whether it's an away
+            </h3>
+            <p class="text-gray-500">By Michael • 2 hrs ago</p>
+          </div>
+        </div>
+        <!-- Blog 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img
+            src="./assets/pexels-mintworkspace-27559507.jpg"
+            alt="Blog 3"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">
+              Download to start streaming all major leagues, buffer-free.
+            </h3>
+            <p class="text-gray-500">By Michael • 10 mins ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why I Started Blogr Section -->
+    <section
+      class="container mx-auto my-16 flex items-center bg-white rounded-lg shadow-lg overflow-hidden"
+    >
+      <div class="w-full md:w-1/2 p-8 mr-auto">
+        <h2 class="text-4xl font-bold mb-4">Why I started Blogr</h2>
+        <p class="text-gray-700 mb-4">
+          My name is John Doe, and I am the founder of Blogr. Blogr is my
+          passion, which is why I'm so excited to launch this new product. It's
+          been a journey filled with challenges and growth, but our mission has
+          always remained clear: to empower content creators and help them share
+          their voices with the world. With this new launch, we're taking
+          another big step towards making that vision a reality, and I can't
+          wait to see how it will transform the way people connect through
+          writing.
+        </p>
+        <div class="flex items-center">
+          <img
+            src="./assets/profil.png"
+            alt="Author"
+            class="w-12 h-12 rounded-full mr-4"
+          />
+          <div>
+            <p class="font-semibold">Robert Fox</p>
+            <p class="text-gray-500">Feb 14, 2018</p>
+          </div>
+        </div>
+      </div>
+      <div class="hidden md:block md:w-2/4 bg-yellow-500 justify-center pr-10">
+        <img
+          src="./assets/Reading glasses-rafiki.png"
+          alt="Laptop"
+          class="w-full h-full object-cover"
+        />
+      </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="container mx-auto my-16">
+      <h2
+        class="text-3xl font-bold mb-6 text-center text-blue-600 text-opacity-60"
+      >
+        Recent Posts
+      </h2>
+      <ul class="space-y-4 flex flex-col items-center gap-10">
+        <li
+          class="flex flex-col items-center bg-white p-6 rounded shadow max-w-md w-1/2"
+        >
+          <img
+            src="./assets/productive.jpg"
+            alt="Post 1"
+            class="h-56 w-full mb-4 object-cover"
+          />
+          <div class="text-center">
+            <span class="font-semibold block"
+              >How to Stay Productive During Remote Work</span
+            >
+            <span class="text-gray-500">July 15, 2024</span>
+            <a
+              href="#"
+              class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+              >Read More</a
+            >
+          </div>
+        </li>
+        <li
+          class="flex flex-col items-center bg-white p-6 rounded shadow max-w-md w-1/2"
+        >
+          <img
+            src="./assets/travel.jpg"
+            alt="Post 2"
+            class="h-56 w-full mb-4 object-cover"
+          />
+          <div class="text-center">
+            <span class="font-semibold block"
+              >Top 10 Travel Destinations for 2024</span
+            >
+            <span class="text-gray-500">July 10, 2024</span>
+            <a
+              href="#"
+              class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+              >Read More</a
+            >
+          </div>
+        </li>
+        <li
+          class="flex flex-col items-center bg-white p-6 rounded shadow max-w-md w-1/2"
+        >
+          <img
+            src="./assets/crypto (1).jpg"
+            alt="Post 3"
+            class="h-56 w-full mb-4 object-cover"
+          />
+          <div class="text-center">
+            <span class="font-semibold block"
+              >Understanding the Basics of Cryptocurrency</span
+            >
+            <span class="text-gray-500">July 8, 2024</span>
+            <a
+              href="#"
+              class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+              >Read More</a
+            >
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section
+      class="container mx-auto my-16 bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-12 rounded-lg text-center"
+    >
+      <h2 class="text-3xl font-bold mb-4">
+        Get notified about our blogs published
+      </h2>
+      <form class="flex justify-center space-x-4">
+        <input
+          type="email"
+          class="w-1/2 px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600 text-black"
+          placeholder="Enter your email"
+          required
+        />
+        <button
+          type="submit"
+          class="bg-white text-blue-600 px-4 py-2 rounded hover:bg-gray-100"
+        >
+          Subscribe
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-6">
+      <div
+        class="container mx-auto flex flex-col md:flex-row justify-between items-center"
+      >
+        <p>&copy; 2024 Blogr. All rights reserved.</p>
+        <div class="flex space-x-4 mt-4 md:mt-0">
+          <a href="#" class="hover:text-gray-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.326v21.349c0 .731.593 1.325 1.325 1.325h11.495v-9.305h-3.124v-3.626h3.124v-2.672c0-3.1 1.893-4.787 4.659-4.787 1.325 0 2.463.098 2.794.142v3.239l-1.917.001c-1.504 0-1.794.715-1.794 1.762v2.313h3.586l-.467 3.626h-3.119v9.305h6.116c.73 0 1.324-.594 1.324-1.325v-21.35c0-.733-.594-1.326-1.325-1.326z"
+              />
+            </svg>
+          </a>
+          <a href="#" class="hover:text-gray-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.611 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.956-2.178-1.555-3.594-1.555-2.719 0-4.924 2.206-4.924 4.923 0 .386.044.761.127 1.122-4.092-.206-7.719-2.164-10.148-5.144-.424.729-.666 1.577-.666 2.482 0 1.712.871 3.223 2.19 4.107-.81-.026-1.571-.248-2.237-.617v.062c0 2.39 1.698 4.384 3.95 4.838-.414.112-.85.171-1.3.171-.316 0-.625-.031-.927-.088.627 1.954 2.445 3.376 4.6 3.415-1.685 1.32-3.809 2.107-6.115 2.107-.397 0-.788-.023-1.175-.068 2.181 1.398 4.767 2.212 7.548 2.212 9.057 0 14.007-7.506 14.007-14.007 0-.214-.005-.428-.014-.64.962-.694 1.797-1.56 2.457-2.549z"
+              />
+            </svg>
+          </a>
+          <a href="#" class="hover:text-gray-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.004 2c-5.514 0-9.999 4.484-9.999 10 0 4.991 3.657 9.128 8.436 9.878-.116-.847-.222-2.148.046-3.071.241-.858 1.552-5.738 1.552-5.738s-.394-.787-.394-1.951c0-1.826 1.058-3.188 2.373-3.188 1.118 0 1.658.838 1.658 1.844 0 1.123-.715 2.802-1.086 4.363-.31 1.312.659 2.379 1.954 2.379 2.345 0 4.145-2.471 4.145-6.029 0-3.154-2.266-5.352-5.504-5.352-3.751 0-5.95 2.812-5.95 5.718 0 1.044.404 2.163.909 2.77.1.117.114.219.084.337-.093.366-.302 1.168-.344 1.331-.053.214-.173.259-.401.157-1.501-.608-2.439-2.512-2.439-4.049 0-3.292 2.398-6.318 6.917-6.318 3.622 0 6.435 2.581 6.435 6.026 0 3.601-2.268 6.498-5.412 6.498-1.057 0-2.054-.551-2.395-1.187l-.651 2.47c-.234.892-.868 2.007-1.295 2.691.974.299 2.003.463 3.073.463 5.513 0 9.998-4.484 9.998-10 0-5.515-4.485-10-10-10z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
